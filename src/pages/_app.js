@@ -13,8 +13,11 @@ export default function MyApp({ Component, pageProps }) {
         <Link href="/city" style={{ marginRight: "15px" }}>
           Oraș
         </Link>
-        <Link href="/favorites">
+        <Link href="/favorites" style={{ marginRight: "15px" }}>
           Favorite
+        </Link>
+        <Link href="/login">
+          Autentificare
         </Link>
       </nav>
       <Component {...pageProps} />
