@@ -1,1 +1,1 @@
-# FavoriteCities
+# favorite-cities
